@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400&display=swap');
+* {
+	margin: 0;
+	padding: 0;	
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+body a,li {
+	list-style-type: none;
+	text-decoration: none;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.block1 {
+	background-image: url('./img/1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1_wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.block1_wrap ul {
+	margin-top: 15px;
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo h1 {
+	color:white;
+	text-transform: uppercase;
+}
+.block1 ul a:hover {
+	color:red; 
+}
+.block1 ul a {
+	position: relative;
+	color: white; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none;
+}
+.block1 ul a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: red; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.block1 ul a:hover:after,
+.block1 ul a:focus:after {
+	width: 100%; 
+}
+.block1_txt {
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    color:white;
+    text-align: center;
+}
+.block1_txt a{
+	border:1px solid white;
+	padding:10px;
+	border-radius: 15px; 
+	color:white;
+}
+.block1_txt a:hover {
+	color:black;
+	background-color: white;
+}
+.block2, .block3, .block4, .block5 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.default {
+	display: flex;
+	flex-direction:column; 
+	align-items: center;
+	justify-content:center;
+    text-align: center;
+}
+.block2_about {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.block2_about img {
+	width: 500px;
+}
+.block2_about p {
+	font-size: 25px;
+	margin-left: 55px;
+}
+.block_services {
+	display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.typo {
+	margin-top: 60px;
+	flex-direction: column;
+	align-items: space-around;
+	justify-content: center;
+	text-align: center;
+}
+.typo h1 {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.typo p {
+	color:#555;
+}
+.block3_service_txt {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	text-align: center;
+}
+.carousel {
+	margin-top: 20px;
+}
+.gets {
+margin-top:20px;
+padding-bottom: 20px;
+}
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.form input {
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	border:none;
+	border:1px solid #555;
+	border-radius:5px;
+	padding-left:15px;
+	padding-right:15px; 	
+}
+.knopka {
+	cursor: pointer;
+}
+.sport {
+	margin-top: 30px;
+}
+.sport_shoes {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.card {
+	margin-top: 20px;
+}
+.card img {
+	height: 300px;
+}
+.card-text {
+	color:#ff6600;
+}
+.block1 #shoes {
+	color:red;
+}
+footer {
+	margin-top: 40px;
+}
+.hambur {
+	width: 50px;
+	cursor: pointer;
+	display: none;
+}
+.block1 .mainstream {
+	display: block;
+}
